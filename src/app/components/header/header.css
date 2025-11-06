@@ -6,7 +6,7 @@
     width: 100%;
 }
 .logo{
-    width: 68%;
+    width: 65%;
     display: flex;
 }
 .logo img{
@@ -16,7 +16,7 @@
     box-sizing: border-box;
 }
 .menu{
-    width: 30%;
+    width: 35%;
 }
 .menu ol{
     display: flex;

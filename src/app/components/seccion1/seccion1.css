@@ -49,7 +49,7 @@
     background: #dbdbd9;
     width: 75%;
     padding: 2%;
-    top:120%;
+    top:150%;
     height: 45%;
     gap: 25%;
 }
@@ -62,8 +62,8 @@
 }
 .parte2 h2{
     color: #f5cb00;
-    width: 55%;
-    font-size: 450%;
+    width: 59%;
+    font-size: 260%;
     margin: 0%;
 }
 .parte2 p{
@@ -100,8 +100,8 @@
     font-weight: 600;
    }
    .parte2 {
-    top:45%;
-    height: 15%;
+    top:80%;
+    height: 20%;
 }
 .parte2 .howhappy{
     width: 50%;
@@ -145,8 +145,8 @@
     font-weight: 600;
    }
    .parte2 {
-    top:40%;
-    height: 15%;
+    top:85%;
+    height: 24%;
 }
 .parte2 .howhappy{
     width: 90%;
@@ -168,7 +168,7 @@
     width: 100%;
   }
    .parte2 {
-    top:69%;
+    top:140%;
     height: 130px;
 }
 .parte2 h2{
@@ -187,8 +187,8 @@
 
 @media (max-width: 480px) {
 .parte2 {
-    height: 8%;
-    top:59%;
+    height: 18%;
+    top:138%;
 }
 .parte2 .howhappy h2{
    font-size: 110%;
