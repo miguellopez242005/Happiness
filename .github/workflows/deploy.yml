@@ -23,6 +23,18 @@ jobs:
       - name: Build (production)
         run: npm run build --if-present -- --configuration production --project Happiness --output-path docs --base-href "/Happiness/"
 
+      - name: Normalize build output
+        run: |
+          # Aplanar posibles carpetas "browser" creadas por la build
+          set -e
+          if [ -d "docs/browser/browser" ]; then
+            mv docs/browser/browser/* docs/ || true
+            rm -rf docs/browser
+          elif [ -d "docs/browser" ]; then
+            mv docs/browser/* docs/ || true
+            rm -rf docs/browser
+          fi
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
